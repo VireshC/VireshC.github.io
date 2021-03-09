@@ -1,1 +1,1 @@
-# https://vireshc.github.io/
+vireshc.github.io
