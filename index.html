@@ -5,38 +5,166 @@
 	</head>
 	<style>
 		/* Here is the code for the sytlization of my web page */
+		table, th, td { 
+		border: 2px solid black;
+		border-collapse: collapse;
+		}
+		th { background-color: lightsalmon;
+		color: black;
+		}
+		ul{
+        display:inline-block;
+        border:3px solid #000;
+        padding:20px;
+		text-align: center;
+		}
+		td {
+		text-align: center;
+		font-size:13px;
+		}
 		body {
-		color: brown;
-		background-color: lightsalmon;}
-		h2.dotted {border-style: dotted; color: brown; border-radius: 10px;}
+		color: black;
+		background-color: white; font-family: verdana;
+		}
+		h2.dotted {border-style: solid; color: black; border-radius: 10px;}
 		p.dotted {color: blue;}
+		h1.full {border-style: solid; color: black; border-radius: 10px; background-color: lightsalmon;}
 		p.green {color: green;}
 		p.yellow {color: yellow;}
 		span {font-weight: normal;}
 		.center {text-align: center;}
 		img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 200px;
+		background-color: #f1f1f1;
+		border: 2px solid #555;
+			}
+
+		li a {
+		display: block;
+		color: #000;
+		padding: 8px 16px;
+		text-decoration: none;
+		}
+
+		li {
+		text-align: center;
+		border-bottom: 1px solid #555;
+		}
+
+		li:last-child {
+		border-bottom: none;
+		}
+
+		li a.active {
+		background-color: #4CAF50;
+		color: white;
+		}
+
+		li a:hover:not(.active) {
+		background-color: #555;
+		color: white;
+		}
 	</style>
 	<body>
-		<h1><u><b><p class="center">V'S GAME REVIEWS</b></u></h1>
-		<h2>Welcome to the site! Here you will find some reviews for games that Viresh plays the most. You can learn more about me at the link below</h2>
-		<a href="pages/aboutme.html">More about me</a><br>
+		<h1 class="full"><u><b><p class="center", p style="font-family:verdana">V'S GAME REVIEWS</b></u></h1></p>
+		<h2><p style="font-family:verdana">Welcome to the site! Here you will find some reviews for games that Viresh plays the most. You can learn more about me using the link below</h2>
+		<b><a href="pages/aboutme.html">About</a></b>
+		<br>
+		<br>
 		<p><i>Reviews found here are purely subjective and are relative to each game's category.</i></p>
-		<p> Games on the page currently</p>
-		<ol>
-		<li>Call of Duty: Modern Warfare (2019)</li>
-		<li>GTA V</li>
-		<li>Minecraft</li>
-		<li>Fortnite</li>
-		</ol>  
-		</br>
+		<br>
+		<p><u><b>Games on the page currently</b></u></p>
+		<ul>
+		<li><a href="https://www.callofduty.com/modernwarfare">Call of Duty: Modern Warfare (2019)</a></li>
+		<li><a href="https://www.rockstargames.com/V/">GTA V</a></li>
+		<li><a href="https://www.minecraft.net/en-us/">Minecraft</a></li>
+		<li><a href="https://www.epicgames.com/fortnite/en-US/home">Fortnite</a></li>
+		</ul>
+		<br>
+		<br>
+		<br>
+		<body class=".center">
+		<table style="background-color:#f1f1f1">
+			<tr>
+				<th>Game</th>
+				<th>Category</th>
+				<th>Price (MSRP)</th>
+				<th>ESRB Rating</th>
+				<th>Age of Game</th>
+			</tr>
+			<tr>
+				<td><b>Fortnite</b></td>
+				<td>Third-Person Shooter</td>
+				<td>Free</td>
+				<td>T (Teen)</td>
+				<td>4 Years</td>
+			</tr>
+			<tr>
+			<td><b>Modern Warfare</b></td>
+			<td>First-Person Shooter</td>
+				<td>$39.99-$59.99 (Console dependant)</td>
+				<td>M (Mature)</td>
+				<td>1.5 Years</td>
+			</tr>
+			<tr>
+			<td><b>Minecraft</b></td>
+			<td>Open World</td>
+				<td>$26.95 (Java Edition)</td>
+				<td>E 10+ (Everyone 10+)</td>
+				<td>12 Years</td>
+			</tr>
+			<tr>
+			<td><b>GTA V</b></td>
+			<td>Action-Adventure</td>
+				<td>$60</td>
+				<td>T (Teen)</td>
+				<td>8 Years</td>
+			</tr>
+				</b class=".center">
+		</table>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1 style="text-align: center;"><b>Scroll Down for the Reviews</b></h1>
+		<br>
+		<img src="images/unnamed.gif" alt="Call of Duty: Modern Warfare 2019" width="1500" height="100"/>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<h1><p class="center"><u>REVIEWS</u></h1>
-		<h2 class="dotted"><p class="center">Call of Duty: Modern Warfare 2019</h2>
-		<img src="images/MW.jpg" alt="Call of Duty: Modern Warfare 2019" width="250" height="300"/>
+		<h2 class="dotted"><p class="center"><u>Call of Duty: Modern Warfare 2019</u></h2>
+		<img src="images/mw.jpg" alt="Call of Duty: Modern Warfare 2019" width="250" height="300"/>
 		<p><b><p class="center">Publisher: Activision, Infinity Ward</b></p>
-		<p class="green"><p class="center"><b>Score: 9/10</b></p>
+		<p class="green"><p class="center"><b><u>Score: 9/10</u></b></p>
 		<p>This entry in the Call of Duty franchise was a refreshing experience. From the revamped movement system to the customization and maps in multiplayer,
 		to the enthralling storyline and high replay value co-op, this game has proven to me to be the most fun that I have ever had in a Call of Duty game. The addition of Battle Royale in the form of Warzone has provided me with many days of enjoyment,
 		and has become the most popular game in the genre.</p>
@@ -47,10 +175,10 @@
 		</br>
 		</br>
 		</br>
-		<h2 class="dotted"><p class="center">Grand Theft Auto V</h2>
+		<h2 class="dotted"><p class="center"><u>Grand Theft Auto V</u></h2>
 		<img src="images/gtav.jpg" alt="Grand Theft Auto 5" width="250" height="300"/>
 		<p><span><p class="center">Publisher: Rockstar Games</span></p>
-		<p class="green"><p class="center"><b>Score: 9/10</b></p>
+		<p class="green"><p class="center"><b><u>Score: 9/10</u></b></p>
 		<p><span>Rockstar's Grand Theft Auto V represented a major shift in the gaming world. I still remember the waves that this game caused
 		when it was released back in 2013. GTA V is widely regarded as having one of the most expansive and fun multiplayers in an open-world game in the form of GTA Online.
 		The story that follows three characters with extremely unique character deisgn but that still fit in the cliches and demographics of a modern-day Los Angeles 
@@ -61,10 +189,10 @@
 		</br>
 		</br>
 		</br>
-		<h2 class="dotted"><p class="center">Minecraft</h2>
+		<h2 class="dotted"><p class="center"><u>Minecraft</u></h2>
 		<img src="images/mc.png" alt="Minecraft" width="200" height="300"/>
 		<p><span><p class="center">Publisher: Mojang</span></p>
-		<p class="dotted"><p class="center"><b>Score: 10/10</b></p>
+		<p class="dotted"><p class="center"><b><u>Score: 10/10</u></b></p>
 		<p><span>Mojang's open-world block-based building game captured my youth in 2013. It has since become the most downloaded game in history, surpassing Tetris a few years
 		back. Most people have heard of, if not played this game, so there is not much to say about it. It has offered millions of people countless opportunities, from content creation
 		to , and even to education.</p></b>
@@ -74,10 +202,10 @@
 		</br>
 		</br>
 		</br>
-		<h2 class="dotted"><p class="center">Fortnite</h2>
+		<h2 class="dotted"><p class="center"><u>Fortnite</u></h2>
 		<img src="images/fort.jpg" alt="Fortnite" width="200" height="300"/>
 		<p><b><p class="center">Publisher: Epic Games</b></p>
-		<p class="yellow"><p class="center"><b>Score: 7/10</b></p>
+		<p class="yellow"><p class="center"><b><u>Score: 7/10</u></b></p>
 		<p><span> Epic Game's Fortnite was rated by me based on nostalia value, as that is what it has become; a game for those seeking to return to the "good old days."
 		Recent additions and changes to the game have aliennated whatever remaining fanbase the game has aquired during its initial succes from 2017-2018. Whle remaining an above average game mechanically, especially being free to play, the try-hard nature of competition lowered this game's rating to me.</span></p>
 		<p><b>Pros: Still fun multiplayer, good user-creation features</p></b>
